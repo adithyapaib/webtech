@@ -27,5 +27,5 @@ l = ['ABHISHEK D DEVADIGA', 'ADITHYA PAI B', 'ADITI K A', 'ADITYA S BHANDARY', '
 
 
 for i in range(len(l)):
-    with open('4CB19CS0' + str(i+1) + '/README.md', 'w') as f:
+    with open('4CB19CS00' + str(i+1) + '/README.md', 'w') as f:
         f.write('# ' + l[i] + '\n' + '## USN :'  + '4CB19CS0' + str(i+1) )
