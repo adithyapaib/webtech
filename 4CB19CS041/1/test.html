@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             font-family: sans-serif;
         }
-        header{
+
+        header {
             background-color: red;
         }
-        header nav h1{
+
+        header nav h1 {
             font-size: 20px;
             text-transform: uppercase;
             text-align: center;
             padding: 15px;
             font-family: sans-serif;
         }
-        tr{
-            padding: 100px;
+
+        table{
+            width: 20%;
+            text-align: start;
         }
-        footer{
+
+        footer {
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -35,14 +41,20 @@
             justify-content: center;
             align-items: center;
         }
-        /* table,tr,td,th{
-            border: 2px solid;
-        } */
-        #content{
+
+        #caption {
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #content {
             padding: 15px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -51,45 +63,48 @@
     </header>
     <section id="content">
         <main>
-            <h1>Skills</h1>
-            <table border="2">
-                <thead>
-                    <tr>
-                        <th>Sl.no</th>
-                        <th>Skill name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>HTML</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>CSS</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>C++</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>NodeJS</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>SQL</td>
-                    </tr>
-                </tbody>
-            </table>
+            <center>
+                <h1 id="caption">Skills</h1>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Sl.no</th>
+                            <th rowspan="2">Skill name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>C++</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>NodeJS</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>SQL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
         </main>
     </section>
     <footer>
         <h4>Ashwin &#169; 2022</h4>
     </footer>
 </body>
+
 </html>
