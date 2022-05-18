@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: darkgrey;
+        }
+
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-align: center;
+            background-color: indigo;
+            margin-bottom: 50px;
+            padding: 20px;
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 3px dashed black;
+            border: 3px solid black;
+            text-align: center;
+            margin: auto;
+            background-color: royalblue;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        th,
+        td {
+            padding: 10px 20px;
+            background-color: lightslategrey;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: black;
+            font-size: 20px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 24vh;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>Amrutha A Shanbhag - 4CB19CS012</header>
+        <table>
+            <h1>MY SKILLS</h1>
+            <thead>
+                <tr>
+                    <th>Sl.No. </th>
+                    <th>Skill Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. </td>
+                    <td>My SQL Basics </td>
+                </tr>
+
+                <tr>
+                    <td>2. </td>
+                    <td>HTML </td>
+                </tr>
+
+                <tr>
+                    <td>3. </td>
+                    <td>CSS </td>
+                </tr>
+
+                <tr>
+                    <td>4. </td>
+                    <td>RPA Basics </td>
+                </tr>
+
+                <tr>
+                    <td>5. </td>
+                    <td>Python Basics </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <footer>
+        Copyright&copy; Amrutha A Shanbhag!! '&smile;'
+    </footer>
+</body>
+
+</html>
