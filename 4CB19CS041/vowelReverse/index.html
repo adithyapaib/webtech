@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel find and Number reverse</title>
+</head>
+<body onload="str_vowel()">
+    <script type ="text/javascript">
+        function str_vowel()
+        {
+            var str=prompt("Enter the string\n", " ");
+            let pattern="[aeiouAEIOU]"
+            var res=str.match(pattern)
+            console.log(res)
+            document.write("Vowel found:"+res)
+            document.write("At position:"+res.index+1)
+            revNum()
+        }
+        const revNum=()=>{
+            num=prompt("Enter number to be reversed")
+            num=num.split('')
+            num.reverse()
+            num=num.join('')
+            document.write(num)
+        }
+        </script>
+</body>
+</html>
