@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <center>
+        <input type="text" id="string" placeholder="Enter string" />
+        <br />
+        <input type="number" id="number" placeholder="Enter number" onclick=` />
+        <br />
+        <button id="Rev">Submit</button>
+        <p id="ans"></p>
+    </center>
+    <script>
+        // document.getElementById("ans").innerText = "test";
+        document.getElementById("Rev").addEventListener("click", () => {
+            console.log("clicked");
+            document.getElementById('ans').innerText="Reverse is :" + document.getElementById("number").value.split("").reverse().join("")
+            let str = document.getElementById("string").value;
+            document.getElementById('ans').innerText+="\nIndex of first vowel is : " + (str.indexOf(str.match(/[aeiou]/gi)[0]) + 1).toString();
+        }
+        );
+
+    </script>
+</body>
+
+</html>
